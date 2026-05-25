@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>岚庭餐厅 | 时令餐桌</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="岚庭餐厅首页">
+        <span class="brand-mark">岚</span>
+        <span>
+          <strong>岚庭</strong>
+          <small>LAN TING</small>
+        </span>
+      </a>
+      <nav>
+        <a href="#menu">菜单</a>
+        <a href="#story">餐厅</a>
+        <a href="#visit">到访</a>
+      </nav>
+      <a class="nav-action" href="#reserve">订位</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="岚庭餐厅首屏">
+        <img src="assets/restaurant-hero.png" alt="温暖灯光下的现代餐厅与开放式厨房" />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">时令厨房 · 城市餐桌</p>
+          <h1>岚庭餐厅</h1>
+          <p class="hero-copy">
+            以本地食材、开放式厨房和轻松的服务节奏，做一顿值得慢慢吃完的晚餐。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#reserve">预订今晚</a>
+            <a class="button ghost" href="#menu">查看菜单</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-info" aria-label="餐厅信息">
+        <div>
+          <span>今日菜单</span>
+          <strong>17:30 - 22:30</strong>
+        </div>
+        <div>
+          <span>地址</span>
+          <strong>梧桐路 18 号</strong>
+        </div>
+        <div>
+          <span>人均</span>
+          <strong>¥268 起</strong>
+        </div>
+        <div>
+          <span>电话</span>
+          <strong>021-8675-1120</strong>
+        </div>
+      </section>
+
+      <section class="section intro" id="story">
+        <div>
+          <p class="eyebrow">Restaurant</p>
+          <h2>把精致感留给食物，把放松感留给客人。</h2>
+        </div>
+        <p>
+          岚庭的菜单每三周更新一次。厨房围绕当季蔬果、海鲜和炭火香气来组织菜式，
+          酒单则偏向清爽、矿物感和适合分享的杯卖选择。
+        </p>
+      </section>
+
+      <section class="section menu" id="menu">
+        <div class="section-heading">
+          <p class="eyebrow">Seasonal Menu</p>
+          <h2>本季推荐</h2>
+        </div>
+        <div class="menu-grid">
+          <article class="dish-card">
+            <div>
+              <h3>炭烤海鲈鱼</h3>
+              <p>柠檬叶、茴香、蛤蜊清汤</p>
+            </div>
+            <span>¥168</span>
+          </article>
+          <article class="dish-card">
+            <div>
+              <h3>春笋手工宽面</h3>
+              <p>棕黄油、帕玛森、黑胡椒</p>
+            </div>
+            <span>¥118</span>
+          </article>
+          <article class="dish-card">
+            <div>
+              <h3>慢烤牛小排</h3>
+              <p>烟熏土豆泥、红酒汁、芥末籽</p>
+            </div>
+            <span>¥218</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reservation" id="reserve">
+        <div>
+          <p class="eyebrow">Reservation</p>
+          <h2>留一张靠近开放厨房的桌。</h2>
+          <p>晚餐座位建议提前 1-3 天预订，6 人以上聚餐可电话确认包间和菜单。</p>
+        </div>
+        <form class="reserve-form">
+          <label>
+            日期
+            <input type="date" />
+          </label>
+          <label>
+            人数
+            <select>
+              <option>2 位</option>
+              <option>3 位</option>
+              <option>4 位</option>
+              <option>5 位</option>
+              <option>6 位以上</option>
+            </select>
+          </label>
+          <label>
+            时间
+            <select>
+              <option>17:30</option>
+              <option>18:30</option>
+              <option>19:30</option>
+              <option>20:30</option>
+            </select>
+          </label>
+          <button type="button">查询座位</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="visit">
+      <div>
+        <strong>岚庭 LAN TING</strong>
+        <p>上海市梧桐路 18 号 · 每周一店休</p>
+      </div>
+      <a href="tel:02186751120">021-8675-1120</a>
+    </footer>
+  </body>
+</html>
